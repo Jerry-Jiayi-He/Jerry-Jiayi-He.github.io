@@ -1,43 +1,36 @@
 project:
-  type: website
-  output-dir: docs
+  type: website         # 指定项目类型为网站
+  output-dir: docs      # 构建后输出到 docs 文件夹（GitHub Pages 默认读取 docs 作为站点根目录）
   
 website:
-  page-navigation: true
-  title: "Yujun Lian"
-  site-url: https://lianyujun.github.io
-  favicon: images/site-logo.png
-  repo-url: https://github.com/lianyujun/lianyujun.github.io
-  repo-actions: [edit, issue]
-  
+  page-navigation: true   # 启用页面导航（上一页/下一页按钮）
+  title: "Hello, I'm Jiayi!"  # 网站标题，将显示在浏览器标签页
+  site-url: https://jiayihe.github.io  # 网站的 URL，供 SEO 与链接生成使用
+  favicon: images/favicon.ico  # 浏览器标签页左侧的小图标
+
+  repo-url: https://github.com/Jerry-Jiayi-He/jiayihe.github.io  # GitHub 仓库链接
+  repo-actions: [edit, issue]  # 在页面显示“编辑此页面”和“报告问题”按钮，连接到 GitHub
+
   page-footer:
-    left: |
-      [lianxh.cn](https://www.lianxh.cn)<br>
-    right: |
+    left: |  # 页脚左侧内容
+      [jiayihe.github.io](https://jiayihe.github.io)<br>
+    right: | # 页脚右侧内容
       Made with [Quarto](https://quarto.org/)<br>
     
   navbar: 
-    background: "#A9CCE3"
-    search: true
-    right: 
-      - text: "Home"
+    background: "#A9CCE3"  # 导航栏背景色
+    search: true           # 启用搜索功能
+    right:                 # 导航栏右侧菜单
+      - text: "Home"       # “Home”按钮，链接到 index.qmd
         href: index.qmd
-      - text: "Publications"
+      - text: "Publications"  # “Publications”按钮，链接到 publications.qmd
         href: publications.qmd
-      - text: "Books"
-        href: books.qmd
-      - text: "Blogs"
-        href: blog.qmd
-      - text: "Codes"
-        href: codes.qmd
-      - text: "中文"
-        href: Chinese.qmd
-      - text: "CV"
+      - text: "CV"             # “CV”按钮，直接链接到 PDF 文件
         href: CV.pdf
 
 format:
   html:
-    theme: styles.scss
-    toc: true            # 启用目录
-    toc-position: right  # 将目录放置在页面的右侧
-    toc-depth: 3         # 设置目录的深度，数字越大，目录越详细
+    theme: styles.scss     # 使用 styles.scss 定义的主题和样式
+    toc: true              # 启用目录
+    toc-position: right    # 目录放在页面右侧
+    toc-depth: 3           # 目录深度为 3（例如 h1, h2, h3）

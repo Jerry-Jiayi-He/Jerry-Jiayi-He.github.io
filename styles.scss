@@ -148,3 +148,17 @@ h4 {
   background-size: 1em;
   background-position: 1em 0.5em;
 }
+
+
+
+/* 最终加强版：强制覆盖 Trestles 模板分栏 */
+.quarto-about-trestles {
+  grid-template-columns: 25% 75% !important; /* 使用百分比并强制生效 */
+  grid-template-areas: "about-entity about-contents" !important; /* 确保区域正确 */
+  gap: 2rem !important; /* 强制设置间距 */
+}
+
+/* 确保左侧栏内容居中 */
+.quarto-about-trestles > .about-entity {
+  justify-self: center; /* 头像和链接在自己的栏内居中 */
+}

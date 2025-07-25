@@ -1,62 +1,94 @@
 ---
-title: "Yujun Lian"
-image: images/lianyujun_2025.png
-about:
-  id: hero-heading
-  template: trestles
-  image-width: 12em
-  image-shape: round
-  links:
-    - icon: mailbox
-      text: arlionn@163.com
-      href: mailto:arlionn@163.com
-    - icon: github
-      text: arlionn
-      href: https://github.com/lianyujun
-    - icon: book
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=tlkDP2AAAAAJ
-    - icon: fingerprint
-      text: ORCID
-      href: https://orcid.org/0000-0002-2011-7535
-    - icon: brands zhihu
-      text: 知乎
-      href: https://www.zhihu.com/people/arlionn/
-    - icon: brands weibo
-      text: 微博
-      href: https://weibo.com/arlionn
-    - icon: brands xing
+title: "Jiayi He"  # 页面标题，将显示在浏览器标签页和页面顶部
+image: images/jiayihe_short.png  # 个人头像图片路径
+
+about:  # about section 配置
+  id: hero-heading       # 设置该 section 的 HTML id 为 hero-heading，可用于跳转锚点或 CSS 定位
+  template: trestles     # 使用 trestles 模板美化 about 区域
+  image-width: 10em       # 设置头像宽度为 8em（相对于字体大小的单位）
+  image-shape: round     # 将头像裁剪为圆形
+
+  links:  # 定义个人链接列表
+    - icon: mailbox       # 链接前的图标，这里使用邮箱图标
+      text: jiayi-he@foxmail.com  # 链接文本
+      href: mailto:jiayi-he@foxmail.com  # 点击后执行 mailto 打开邮箱
+
+    - icon: github        # GitHub 图标
+      text: Jerry-Jiayi-He  # GitHub 用户名
+      href: https://github.com/Jerry-Jiayi-He  # GitHub 个人主页链接
+
+    - icon: heart-fill   # 使用爱心图标，小红书常用红色爱心作为互动图标
       text: 小红书
-      href: https://www.xiaohongshu.com/user/profile/682968d9000000000a03da1a
-    - icon: solid user
-      text: 工作主页
-      href: https://lingnan.sysu.edu.cn/faculty/LianYujun
-    - icon: brands home
-      text: 连享会
-      href: https://www.lianxh.cn
-    - icon: 📝
-      text: CV
-      href: CV.pdf  
+      href: https://www.xiaohongshu.com/user/profile/6463125100000000100297b1  # 小红书个人页面链接
+
+    - icon: file-earmark-person  # 使用文件人物图标，适合简历
+      text: CV           # 文本显示为 CV
+      href: CV.pdf       # 点击后下载或查看 CV.pdf 文件
 ---
+
+<style>
+/* 强制设置 Trestles 模板分栏布局，并显式限制左侧列宽度 */
+.quarto-about-trestles {
+  grid-template-columns: minmax(150px, 25%) 1fr !important;
+  gap: 2rem !important;
+}
+
+/* 确保左侧栏内容在自己的栏内居中对齐，并控制最大宽度 */
+.quarto-about-trestles > .about-entity {
+  justify-self: center;
+  align-self: start;
+  max-width: 200px !important;
+  width: 100% !important;
+}
+
+/* 允许图片大小遵循YAML设置，但确保保持圆形 */
+.quarto-about-trestles .about-entity img {
+  /* 移除固定宽度设置，使其可以响应YAML中的image-width */
+  object-fit: cover; /* 确保图片内容正确填充，不拉伸 */
+  border-radius: 50%; /* 确保呈现为圆形 */
+  aspect-ratio: 1 / 1; /* 强制保持1:1的宽高比，确保圆形 */
+}
+</style>
 
 ::: {#hero-heading}
 
-Professor Lian's research interests lie in the field of causal inference methods and stochastic frontier analysis, with specific applications in investment, trade credit, and supply chain dynamics. He has been actively researching topics such as supply chain finance, leverage adjustment, trade credit, and innovation. He teaches courses in Financial Econometrics and Applied Econometrics. 
+Jiayi He is a master student in Management Science and Engineering at the School of Business, Sun Yat-sen University. His research interests lie in **FinTech (such as Web3)** and **financial risk management**, with a particular focus on the payment field. He is also broadly interested in how emerging technologies empower business and finance development and create social impact.
 
-His teaching abilities have been highly regarded, as evidenced by his consecutive perfect teaching evaluations in the MBA corporate finance course over a span of three years. He was was awarded the title of *My Favorite Teacher* in 2022 by Lignan College. 
+Prior to his master's studies, Jiayi obtained his Bachelor of Engineering degree in Traffic Engineering (Intelligent Transportation) from the School of Intelligent Systems Engineering at Sun Yat-sen University, ranking **2nd out of 58** in his cohort. His undergraduate thesis focused on **slot sharing and service competition strategies for liner shipping companies under demand uncertainty**, applying game-theoretic modeling to maritime supply chain coordination problems.
 
-With his expertise in applied econometrics, he has made significant contributions to the [Stata](https://www.stata.com/) community by developing several popular packages, including `winsor2`, `xtbalance`, `bdiff`, and `sftt`, which have been widely used by researchers in various fields. He is one of the initiators of the Chinese Stata Users Group Meeting, which is one of the imporat meeting of Stata Corporation. He has been invited several times as a guest speaker to deliver keynote speeches ([2018th](https://www.stata.com/meeting/china18/), [2020th](https://www.stata.com/meeting/china20-Uone-Tech/), [2021th](https://www.stata.com/meeting/china21-Uone-Tech/), [2022th](https://www.stata.com/meeting/china22-Uone-Tech/), [2023th](https://www.stata.com/meeting/china23-Uone-Tech/)).
+He has research experience spanning **game theory, operations research, and deep learning**, with publications in SCI-indexed journals. His competition awards include the **First Prize in the National Undergraduate Mathematics Competition (Guangdong Province)**, **First Prize in the National Undergraduate Mathematical Modeling Competition (Guangdong Province)**, and the **Second Prize in the National Undergraduate Transport Science and Technology Competition (National Level)**.
 
-He is also the founder of the website <https://www.lianxh.cn>, one of the largest academic websites in mainland China specializing in management and economics. Currently, it has published over 1300 articles introducing econometric and statistical methods. The WeChat official account lianxh_cn, established based on this website, has accumulated over 280,000 subscribers, with a total reading volume exceeding 20 million and a daily average reading volume exceeding 10,000.
+Beyond academia, Jiayi interned in the Department of Data Analysis and Algorithm at **Ruqi Mobility**, where he worked on operational performance prediction, flow filtering mechanisms based on marginal revenue analysis, and reinforcement learning models for order dispatching, enhancing platform resource allocation efficiency and driver income.
 
+Jiayi is passionate about observing economic, finance and business phenomena in daily life and is enthusiastic about applying new technologies such as **AI and blockchain** to practical business and financial problems.
 
 ## Background
 
-- Jan 2024 - Aug 2024: Visiting Professor, DeGroote School of Business, McMaster Univeristy. 
-- Aug 2015 - Jan 2016: Visiting Scholar, MIT Sloan School of Management, Massachusetts Institute of Technology
-- 2011 - Present: Associate Professor, Lingnan College, Sun Yat-sen University, specializing in Quantitative Economics
-- 2007-2010: Lecturer, Department of Finance, Lingnan College, Sun Yat-sen University
-- 2001-2007: Ph.D. in Economics, Xi'an Jiaotong University, China, specializing in Econometrics
-- 1997-2001: Bachelor of Engineering, Xi'an Jiaotong University, China, majoring in Materials Science.
+- Sep 2024 - Present: MSc student in Management Science and Engineering, School of Business, Sun Yat-sen University
+- Sep 2020 - Jun 2024: BEng in Traffic Engineering (Intelligent Transportation), School of Intelligent Systems Engineering, Sun Yat-sen University  
+  GPA: 4.1/5 (Ranked 2/58), National Scholarship (2021), Outstanding Graduate (2024)
+
+## Selected Research Experience
+
+- **Undergraduate Thesis** (2024): Slot Sharing and Service Competition Strategies for Liner Shipping Companies under Demand Uncertainty  
+  - Constructed game-theoretic models for a two-tier maritime supply chain with multiple sharing mechanisms, deriving managerial insights for operational optimization.
+
+- **Undergraduate Research Project** (2021-2022): Multi-objective Optimization of Signalized Intersections under Mixed Traffic Flow  
+  - Led a university-funded project applying operations research to real-world traffic environments in Shenzhen.
+
+- **SCI Publication** (Third author, 2023): Sequence-based Local–Global Information Fusion Framework for Vertebrae Detection  
+  - Published in *Computerized Medical Imaging and Graphics* (SCI Zone II).
+
+## Technical Skills
+
+- **Programming & Data Analysis**: Python, MATLAB, SQL, C  
+- **Methodology**: Game-theoretic modeling, Operations research (Optimization), Deep learning 
+- **Documentation**: LaTeX, Microsoft Office
+
+## Interests
+
+- Long-distance running, tennis, hiking  
+- City exploration in the Greater Bay Area  
+- Observing and analyzing economic, technological, and business trends
 
 :::
