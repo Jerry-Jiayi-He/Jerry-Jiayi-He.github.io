@@ -5,15 +5,15 @@ project:
 website:
   page-navigation: true   # 启用页面导航（上一页/下一页按钮）
   title: "Hello, I'm Jiayi!"  # 网站标题，将显示在浏览器标签页
-  site-url: https://jiayihe.github.io  # 网站的 URL，供 SEO 与链接生成使用
+  site-url: https://Jerry-Jiayi-He.github.io  # 网站的 URL，供 SEO 与链接生成使用
   favicon: images/favicon.ico  # 浏览器标签页左侧的小图标
 
-  repo-url: https://github.com/Jerry-Jiayi-He/jiayihe.github.io  # GitHub 仓库链接
+  repo-url: https://github.com/Jerry-Jiayi-He/Jerry-Jiayi-He.github.io  # GitHub 仓库链接
   repo-actions: [edit, issue]  # 在页面显示“编辑此页面”和“报告问题”按钮，连接到 GitHub
 
   page-footer:
     left: |  # 页脚左侧内容
-      [jiayihe.github.io](https://jiayihe.github.io)<br>
+      [Jerry-Jiayi-He.github.io](https://Jerry-Jiayi-He.github.io)<br>
     right: | # 页脚右侧内容
       Made with [Quarto](https://quarto.org/)<br>
     
