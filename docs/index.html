@@ -123,6 +123,8 @@ ul.task-list li input[type="checkbox"] {
 .quarto-about-trestles {
   grid-template-columns: minmax(150px, 25%) 1fr !important;
   gap: 2rem !important;
+  display: grid; /* 确保使用网格布局 */
+  width: 100%; /* 确保使用完整宽度 */
 }
 
 /* 确保左侧栏内容在自己的栏内居中对齐，并控制最大宽度 */
@@ -131,6 +133,8 @@ ul.task-list li input[type="checkbox"] {
   align-self: start;
   max-width: 200px !important;
   width: 100% !important;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* 允许图片大小遵循YAML设置，但确保保持圆形 */
@@ -139,6 +143,21 @@ ul.task-list li input[type="checkbox"] {
   object-fit: cover; /* 确保图片内容正确填充，不拉伸 */
   border-radius: 50%; /* 确保呈现为圆形 */
   aspect-ratio: 1 / 1; /* 强制保持1:1的宽高比，确保圆形 */
+  margin: 0 auto; /* 图片居中 */
+  display: block; /* 使margin: 0 auto生效 */
+}
+
+/* 添加媒体查询，针对移动设备优化布局 */
+@media (max-width: 768px) {
+  .quarto-about-trestles {
+    grid-template-columns: 1fr !important; /* 在小屏幕上改为单列布局 */
+    gap: 1rem !important;
+  }
+  
+  .quarto-about-trestles > .about-entity {
+    max-width: 150px !important; /* 在移动设备上稍微减小最大宽度 */
+    margin: 0 auto 1rem auto; /* 上下间距增加，左右居中 */
+  }
 }
 </style>
 <div class="quarto-about-trestles">
