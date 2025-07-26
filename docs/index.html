@@ -121,10 +121,8 @@ ul.task-list li input[type="checkbox"] {
 <style>
 /* 强制设置 Trestles 模板分栏布局，并显式限制左侧列宽度 */
 .quarto-about-trestles {
-  grid-template-columns: minmax(150px, 25%) 1fr !important;
-  gap: 2rem !important;
-  display: grid; /* 确保使用网格布局 */
-  width: 100%; /* 确保使用完整宽度 */
+  grid-template-columns: minmax(150px, 30%) 1fr !important;
+  gap: 1.5rem !important; /* 减小整体间距 */
 }
 
 /* 确保左侧栏内容在自己的栏内居中对齐，并控制最大宽度 */
@@ -133,8 +131,8 @@ ul.task-list li input[type="checkbox"] {
   align-self: start;
   max-width: 200px !important;
   width: 100% !important;
-  margin: 0 auto;
   text-align: center;
+  margin: 0 auto;
 }
 
 /* 允许图片大小遵循YAML设置，但确保保持圆形 */
@@ -143,27 +141,69 @@ ul.task-list li input[type="checkbox"] {
   object-fit: cover; /* 确保图片内容正确填充，不拉伸 */
   border-radius: 50%; /* 确保呈现为圆形 */
   aspect-ratio: 1 / 1; /* 强制保持1:1的宽高比，确保圆形 */
-  margin: 0 auto; /* 图片居中 */
-  display: block; /* 使margin: 0 auto生效 */
+  margin: 0 auto;
+  display: block;
+}
+
+/* 确保链接按钮在所有设备上都居中，使用更灵活的布局 */
+.about-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 0.2rem; /* 减小按钮间距 */
+}
+
+.about-link {
+  margin: 0.1em; /* 减小上下间距 */
+  min-width: 50px; /* 最小宽度，允许按钮灵活布局 */
 }
 
 /* 添加媒体查询，针对移动设备优化布局 */
 @media (max-width: 768px) {
   .quarto-about-trestles {
     grid-template-columns: 1fr !important; /* 在小屏幕上改为单列布局 */
-    gap: 1rem !important;
+    gap: 0.1rem !important; /* 减小间距 */
   }
   
-  .quarto-about-trestles > .about-entity {
-    max-width: 150px !important; /* 在移动设备上稍微减小最大宽度 */
-    margin: 0 auto 1rem auto; /* 上下间距增加，左右居中 */
+  .quarto-grid-item {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1.title {
+    text-align: center;
+    margin-bottom: 0.8rem; /* 减小标题下方间距 */
+  }
+  
+  .quarto-about-trestles .about-entity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto 0.5rem auto; /* 减小底部间距 */
+  }
+  
+  /* 特殊处理最后两个链接按钮，使它们并排显示 */
+  .about-links {
+    gap: 0.2rem; /* 更小的按钮间距 */
+  }
+  
+  /* 较短的链接按钮可以占用更少的宽度 */
+  .about-links .about-link:nth-last-child(-n+2) {
+    flex: 0 1 auto;
+    min-width: unset;
+    width: auto;
   }
 }
 </style>
 <div class="quarto-about-trestles">
   <div class="about-entity">
     <img src="images/jiayihe_short.png" class="about-image
-  round " style="height: 10em; width: 10em;">
+  round " style="height: 10.5em; width: 10.5em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Jiayi He</h1>
