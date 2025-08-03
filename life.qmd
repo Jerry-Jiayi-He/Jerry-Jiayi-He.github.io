@@ -1,0 +1,121 @@
+---
+title: "Life Beyond Research"
+format:
+  html:
+    toc: true
+    page-layout: article
+    theme: styles.scss
+---
+
+<style>
+/* 与网站整体风格保持一致的样式 */
+h2 {
+  color: #b98f68; /* 使用主题中的标题颜色 */
+  margin-top: 2rem;
+  border-bottom: 1px solid #e9ecef;
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  color: #9a4c28; /* 使用主题中的子标题颜色 */
+  margin-top: 1.5rem;
+}
+
+a {
+  color: #0066cc; /* 使用主题中的链接颜色 */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #006400; /* 悬停时的颜色 */
+  text-decoration: underline;
+}
+
+/* 图像样式 */
+.city-image {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 卡片样式 */
+.life-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.highlight-text {
+  font-weight: 500;
+  color: #632e0d;
+}
+</style>
+
+## City Walks & Urban Exploration
+
+::: {.life-card}
+I've explored the streets and alleys of Guangzhou, Shenzhen, and Hong Kong, becoming familiar with local cultures and urban development. My explorations also extended to Beijing, Chongqing, Singapore, and beyond—walking through Singapore's heritage houses to understand the history of the Housing Development Board, or visiting Tin Shui Wai, Hong Kong's largest public housing community, to learn about new town development and construction.
+
+<!-- City exploration photo -->
+![City exploration](images/ifc_hk.jpg){.city-image}
+
+Each urban journey is like reading a three-dimensional history book of the city. From architectural styles to street layouts, from commercial arrangements to residents' daily lives, you can experience the patterns of urban planning and development.
+
+**I welcome anyone interested to join weekend road trips and explorations!**
+:::
+
+## Sports & Outdoor Activities
+
+::: {.life-card}
+I'm passionate about various sports including tennis, hiking, and long-distance running.
+
+### Tennis
+
+Currently at NTRP 2.5 level, I'm working to improve my technique. <span class="highlight-text">Looking for experienced players to practice with!</span>
+
+<!-- Tennis photo -->
+![Tennis](images/tennis_gz.jpg){.city-image}
+
+### Hiking
+
+I've conquered several mountains in Greater Bay Area, like Wutong Mountain, Meisha Peak, Meilin Mountain and so on.
+The MacLehose Trail left the deepest impression on me—I’ve tried three times, each visit revealing new scenery and experiences. I’ve hiked sections 1, 2, and 10, and each journey has offered something unique.
+
+<!-- Hiking photo -->
+![Hiking adventures](images/MR2_hk.jpg){.city-image}
+
+### Running
+
+I regularly participate in running training and have completed multiple half-marathons. Look for a daily running partner~
+
+<!-- Running photo -->
+![Running](images/marathon_gz.jpg){.city-image}
+:::
+
+## Economic Observations
+
+::: {.life-card}
+I am also curious about macroeconomic development trends, such as:
+
+- The critical role of land finance and fixed asset investment in China's rapid economic development over the past decades
+- How financial innovation accelerates investment and financing efficiency while simultaneously increasing system fragility and potential risks
+- Economic structural transformation and sustainability issues in the process of urbanization
+
+<!-- Economic chart/visualization -->
+![Economic trends](images/eco_gz.jpg){.city-image}
+
+I'm not an economics researcher (maybe?), but I think economics really helps make sense of the world. I often find myself noticing and reflecting on economic patterns in everyday life—it keeps me sharp and curious.
+:::
+
+
+## Let's Explore Together
+
+Whether it's urban walks, sports challenges, economic/finance/business observations, or other intellectual exchange, I look forward to sharing and exploring with like-minded friends. If you're interested in any of the above topics or have other ideas you'd like to discuss, feel free to [contact me](contact.qmd).
+
+<!-- Community photo -->
+![Exploring together](images/TY_hk.jpg){.city-image}
+
+Life is not just about research and work, but a continuous journey of exploration and discovery. Let's learn, grow, and create value together on this journey!

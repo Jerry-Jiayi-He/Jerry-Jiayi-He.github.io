@@ -21,4 +21,4 @@ editor: visual
 -   Slot Sharing for Container Shipping Liners Under Service Competition and Demand Uncertainty
 
 ## Scientific Research Project
-1.  似乎可以把本科大创放上来...(太菜了没得放)
+1. 中山大学大学生创新训练计划项目，校级项目，202211906，人车非的混行环境下信控交叉口多目标优化研究，2021.12–2022.11，资助额：6000 元。负责人：何佳一

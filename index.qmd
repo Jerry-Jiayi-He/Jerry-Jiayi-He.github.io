@@ -18,7 +18,7 @@ about:  # about section 配置
       href: https://github.com/Jerry-Jiayi-He  # GitHub 个人主页链接
 
     - icon: heart-fill   # 使用爱心图标，小红书常用红色爱心作为互动图标
-      text: 小红书
+      text: RedNote
       href: https://www.xiaohongshu.com/user/profile/6463125100000000100297b1  # 小红书个人页面链接
 
     - icon: file-earmark-person  # 使用文件人物图标，适合简历
@@ -113,21 +113,21 @@ about:  # about section 配置
 
 ::: {#hero-heading}
 
-Jiayi He is a master student in Management Science and Engineering at the School of Business, Sun Yat-sen University. His research interests lie in **FinTech (such as Web3)** and **financial risk management**, with a particular focus on the payment field. He is also broadly interested in how emerging technologies empower business and finance development and create social impact.
+Jiayi He is a master student in Management Science and Engineering at the School of Business, Sun Yat-sen University. He obtained a B.Eng. in Traffic Engineering (Intelligent Transportation) from the School of Intelligent Systems Engineering, Sun Yat-sen University. 
 
-Prior to his master's studies, Jiayi obtained his Bachelor of Engineering degree in Traffic Engineering (Intelligent Transportation) from the School of Intelligent Systems Engineering at Sun Yat-sen University, ranking **2nd out of 58** in his cohort. His undergraduate thesis focused on **slot sharing and service competition strategies for liner shipping companies under demand uncertainty**, applying game-theoretic modeling to maritime supply chain coordination problems.
-
-He has research experience spanning **game theory, operations research, and deep learning**, with publications in SCI-indexed journals. His competition awards include the **First Prize in the National Undergraduate Mathematics Competition (Guangdong Province)**, **First Prize in the National Undergraduate Mathematical Modeling Competition (Guangdong Province)**, and the **Second Prize in the National Undergraduate Transport Science and Technology Competition (National Level)**.
-
-Beyond academia, Jiayi interned in the Department of Data Analysis and Algorithm at **Ruqi Mobility**, where he worked on operational performance prediction, flow filtering mechanisms based on marginal revenue analysis, and reinforcement learning models for order dispatching, enhancing platform resource allocation efficiency and driver income.
+His current research focuses on **FinTech (e.g., Web3)** and **financial risk management**, particularly in the payment domain. He has experience in **game theory, operations research, and deep learning**, with publications in SCI-indexed journals.
 
 Jiayi is passionate about observing economic, finance and business phenomena in daily life and is enthusiastic about applying new technologies such as **AI and blockchain** to practical business and financial problems.
 
+
 ## Background
 
-- Sep 2024 - Present: MSc student in Management Science and Engineering, School of Business, Sun Yat-sen University
-- Sep 2020 - Jun 2024: BEng in Traffic Engineering (Intelligent Transportation), School of Intelligent Systems Engineering, Sun Yat-sen University  
-  GPA: 4.1/5 (Ranked 2/58), National Scholarship (2021), Outstanding Graduate (2024)
+- Sep 2024 – Present:
+  - MSc student in Management Science and Engineering, School of Business, Sun Yat-sen University
+- Sep 2020 – Jun 2024:
+  - BEng in Traffic Engineering (Intelligent Transportation), School of Intelligent Systems Engineering, Sun Yat-sen University  
+  - GPA: 4.1/5 (Ranked 2/58); National Scholarship (2021); Outstanding Graduate (2024)
+
 
 ## Selected Research Experience
 
@@ -139,6 +139,20 @@ Jiayi is passionate about observing economic, finance and business phenomena in 
 
 - **SCI Publication** (Third author, 2023): Sequence-based Local–Global Information Fusion Framework for Vertebrae Detection  
   - Published in *Computerized Medical Imaging and Graphics* (SCI Zone II).
+
+## Competition Awards
+
+- First Prize in the National Undergraduate Mathematics Competition (Guangdong Province)
+
+- First Prize in the National Undergraduate Mathematical Modeling Competition (Guangdong Province)
+
+- Second Prize in the National Undergraduate Transport Science and Technology Competition (National Level)
+
+
+## Internship
+
+Beyond academia, Jiayi interned in the Department of Data Analysis and Algorithm at **Ruqi Mobility**, where he worked on operational performance prediction, flow filtering mechanisms based on marginal revenue analysis, and reinforcement learning models for order dispatching, enhancing platform resource allocation efficiency and driver income.
+
 
 ## Technical Skills
 

@@ -4,7 +4,7 @@ project:
   
 website:
   page-navigation: true   # 启用页面导航（上一页/下一页按钮）
-  title: "Hello, I'm Jiayi!"  # 网站标题，将显示在浏览器标签页
+  title: "Welcomt to Jiayi's homepage!"  # 网站标题，将显示在浏览器标签页
   site-url: https://Jerry-Jiayi-He.github.io  # 网站的 URL，供 SEO 与链接生成使用
   favicon: images/favicon.ico  # 浏览器标签页左侧的小图标
 
@@ -27,6 +27,10 @@ website:
         href: publications.qmd
       - text: "CV"             # “CV”按钮，直接链接到 PDF 文件
         href: CV.pdf
+      - text: "Life"          # “Life”按钮，链接到 life.qmd
+        href: life.qmd
+      - text: "Contact"          # “Contact”按钮，链接到 contact.qmd
+        href: contact.qmd
 
 format:
   html:

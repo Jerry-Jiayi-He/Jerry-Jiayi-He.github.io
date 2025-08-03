@@ -1,0 +1,81 @@
+---
+title: "Contact Me"
+format:
+  html:
+    toc: false
+    page-layout: article
+    theme: styles.scss
+    css: 
+      - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css
+---
+
+<style>
+/* 与网站整体风格保持一致的样式 */
+h2 {
+  color: #b98f68; /* 使用主题中的标题颜色 */
+  margin-top: 2rem;
+  border-bottom: 1px solid #e9ecef;
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  color: #9a4c28; /* 使用主题中的子标题颜色 */
+  margin-top: 1.5rem;
+}
+
+a {
+  color: #0066cc; /* 使用主题中的链接颜色 */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #006400; /* 悬停时的颜色 */
+  text-decoration: underline;
+}
+
+/* 联系信息样式 */
+.contact-section {
+  margin-bottom: 1.5rem;
+}
+
+/* 减少地址部分的空格 */
+.address-info {
+  margin-top: 0.5rem;
+}
+
+/* 统一调整列表间距 */
+ul, ol {
+  margin-top: 0.5rem;
+  line-height: 1.7;
+}
+</style>
+
+## Get in Touch
+
+If you have any questions — whether academic, professional, or related to daily life — please feel free to reach out! I'm always open to connecting on topics such as FinTech, business phenomena in everyday life, macroeconomics, or any exciting projects.  
+I am actively seeking opportunities for visiting research collaboration and industry internships.
+
+
+### 📧 Email  
+- <i class="fa-solid fa-envelope"></i>  [jiayi-he@foxmail.com](mailto:jiayi-he@foxmail.com) (Priority) 
+- <i class="fa-solid fa-envelope"></i> [hejy96@mail2.sysu.edu.cn](mailto:hejy96@mail2.sysu.edu.cn)  
+
+### 📍 Address
+School of Business, Sun Yat-sen University (East Campus)  
+132 Waihuan East Road, University Town, Panyu District  
+Guangzhou, Guangdong, China
+
+### 🌐 Internet Platforms
+You can also find me on other platforms:
+
+- <i class="fa-brands fa-github"></i> GitHub: [Jerry-Jiayi-He](https://github.com/Jerry-Jiayi-He)
+- <i class="fa-solid fa-heart" style="color: #e74c3c;"></i> RedNote: [中深工地人](https://www.xiaohongshu.com/user/profile/6463125100000000100297b1)
+
+
+## Meeting in Real World
+
+If you're at Sun Yat-sen University or in Canton, and would like to meet in person, feel free to reach out!  
+We can schedule a time to talk or play.
+
+- **Tuesday/Thursday**: usually in South Campus  
+- **Other weekdays**: mostly in East Campus
