@@ -21,15 +21,17 @@ website:
     background: "#A9CCE3"  # 导航栏背景色
     search: true           # 启用搜索功能
     right:                 # 导航栏右侧菜单
-      - text: "Home"       # “Home”按钮，链接到 index.qmd
+      - text: "Home"       # "Home"按钮，链接到 index.qmd
         href: index.qmd
-      - text: "Publications"  # “Publications”按钮，链接到 publications.qmd
+      - text: "Publications"  # "Publications"按钮，链接到 publications.qmd
         href: publications.qmd
-      - text: "CV"             # “CV”按钮，直接链接到 PDF 文件
+      - text: "CV"             # "CV"按钮，直接链接到 PDF 文件
         href: CV.pdf
-      - text: "Life"          # “Life”按钮，链接到 life.qmd
+      - text: "中文简历"        # "中文简历"按钮，直接链接到中文简历 PDF 文件
+        href: CV_Chinese.pdf
+      - text: "Life"          # "Life"按钮，链接到 life.qmd
         href: life.qmd
-      - text: "Contact"          # “Contact”按钮，链接到 contact.qmd
+      - text: "Contact"          # "Contact"按钮，链接到 contact.qmd
         href: contact.qmd
 
 format:

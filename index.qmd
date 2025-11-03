@@ -24,6 +24,10 @@ about:  # about section 配置
     - icon: file-earmark-person  # 使用文件人物图标，适合简历
       text: CV           # 文本显示为 CV
       href: CV.pdf       # 点击后下载或查看 CV.pdf 文件
+
+    - icon: file-earmark-person  # 使用文件人物图标，适合简历
+      text: 中文简历           # 文本显示为中文简历
+      href: CV_Chinese.pdf       # 点击后下载或查看中文简历 PDF 文件
 ---
 
 
@@ -113,9 +117,9 @@ about:  # about section 配置
 
 ::: {#hero-heading}
 
-Jiayi He is a master student in Management Science and Engineering at the School of Business, Sun Yat-sen University. He obtained a B.Eng. in Traffic Engineering (Intelligent Transportation) from the School of Intelligent Systems Engineering, Sun Yat-sen University. 
+Jiayi He is a master student in Management Science and Engineering (Fintech and Financial Engineering) at the School of Business, Sun Yat-sen University. He obtained a B.Eng. in Traffic Engineering (Intelligent Transportation) from the School of Intelligent Systems Engineering, Sun Yat-sen University. 
 
-His current research focuses on **FinTech (e.g., Web3)** and **financial risk management**, particularly in the payment domain. He has experience in **game theory, operations research, and deep learning**, with publications in SCI-indexed journals.
+His current research focuses on **FinTech (e.g., Web3)** and **Financial Engineering (e.g., financial derivatives)**. He has experience in **game theory, operations research, and deep learning**, with publications in SCI-indexed journals.
 
 Jiayi is passionate about observing economic, finance and business phenomena in daily life and is enthusiastic about applying new technologies such as **AI and blockchain** to practical business and financial problems.
 
@@ -123,7 +127,7 @@ Jiayi is passionate about observing economic, finance and business phenomena in 
 ## Background
 
 - Sep 2024 – Present:
-  - MSc student in Management Science and Engineering, School of Business, Sun Yat-sen University
+  - MSc student in Management Science and Engineering (Fintech and Financial Engineering), School of Business, Sun Yat-sen University
 - Sep 2020 – Jun 2024:
   - BEng in Traffic Engineering (Intelligent Transportation), School of Intelligent Systems Engineering, Sun Yat-sen University  
   - GPA: 4.1/5 (Ranked 2/58); National Scholarship (2021); Outstanding Graduate (2024)

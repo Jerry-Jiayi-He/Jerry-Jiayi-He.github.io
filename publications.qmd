@@ -15,10 +15,12 @@ editor: visual
 &emsp;
 
 ## Journal Publications
-- Zhao, S., Li, X., **He, J.**, Chen, B., Li, S. Sequence-based local–global information fusion framework for vertebrae detection under pathological and FOV variation challenges. *Computerized Medical Imaging and Graphics*, 2023, 108: 102244. [Link](https://doi.org/10.1016/j.compmedimag.2023.102244)
+- Zhao, S., Li, X., **He, J.**, Chen, B., Li, S. Sequence-based local–global information fusion framework for vertebrae detection under pathological and FOV variation challenges[J]. *Computerized Medical Imaging and Graphics*, 2023, 108: 102244. [Link](https://doi.org/10.1016/j.compmedimag.2023.102244)
+
+- Zhou S, **He J**, Zhuo X, et al. Slot Sharing for Container Shipping Liners Under Service Competition and Demand Uncertainty[J]. *Frontiers in Marine Science*, 2025, 12: 1691846. [Link](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2025.1691846/full)
 
 ## Working Paper
--   Slot Sharing for Container Shipping Liners Under Service Competition and Demand Uncertainty
+- None
 
 ## Scientific Research Project
 1. 中山大学大学生创新训练计划项目，校级项目，202211906，人车非的混行环境下信控交叉口多目标优化研究，2021.12–2022.11，资助额：6000 元。负责人：何佳一
